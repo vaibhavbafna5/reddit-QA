@@ -42,6 +42,7 @@ reddit = praw.Reddit(client_id=client_id,
                      password=password,
                      user_agent='testscript by /u/carameldelight5',
                      username=username)
+                     
 count = 0 
 for submissionID in submissions: 
     print (count)
