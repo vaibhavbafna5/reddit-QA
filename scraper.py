@@ -33,9 +33,9 @@ for link in links:
     print (link[begIndex:endIndex] + "\n")
 
 client_id = "jhAffV3EzTf80A"
-client_secret = "f38Y5S9QTzm6y0LyG5UiU47sMKk"
-username = "carameldelight5"
-password = "@Collingsworth5"
+client_secret = ""
+username = ""
+password = ""
 
 reddit = praw.Reddit(client_id=client_id,
                      client_secret=client_secret,
